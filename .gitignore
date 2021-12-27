@@ -25,4 +25,4 @@ hs_err_pid*
 # Stuff I don't want included
 MargRevo.java
 README2.md
-GUI.java
+#GUI.java
