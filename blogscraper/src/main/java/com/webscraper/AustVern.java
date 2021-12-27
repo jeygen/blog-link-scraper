@@ -29,11 +29,9 @@ public class AustVern {
 
     @Override
     public String toString() {
-        String s = "";
         for (Element link : links) {
-           // System.out.println("Links: " + link.attr("abs:href"));
-            s = link.attr("abs:href");
+           System.out.println("Links: " + link.attr("abs:href"));
         }
-        return s + "\nDONE Austin Vernon";
+        return "DONE Austin Vernon";
     }
 }
